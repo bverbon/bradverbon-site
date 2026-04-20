@@ -1,0 +1,92 @@
+/* Base reset & font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, serif;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #222;
+  background: #fff;
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  font-size: 0.95rem;
+  font-family: system-ui, sans-serif;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+/* Headings */
+h1 {
+  font-size: 1.8rem;
+  font-weight: normal;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-weight: normal;
+  margin: 2rem 0 0.5rem;
+}
+
+/* Body text */
+p {
+  margin-bottom: 1.2rem;
+  color: #333;
+}
+
+/* Blog post list */
+.post-list {
+  list-style: none;
+  margin-top: 1.5rem;
+}
+
+.post-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.post-list a {
+  text-decoration: none;
+  color: #222;
+}
+
+.post-list a:hover {
+  text-decoration: underline;
+}
+
+.post-date {
+  color: #999;
+  font-size: 0.85rem;
+  font-family: system-ui, sans-serif;
+}
+
+/* Footer */
+footer {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #eee;
+  font-size: 0.85rem;
+  color: #999;
+  font-family: system-ui, sans-serif;
+}
